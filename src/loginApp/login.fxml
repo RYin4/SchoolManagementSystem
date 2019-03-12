@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.PasswordField?>
@@ -10,10 +11,11 @@
    <children>
       <Label layoutX="36.0" layoutY="44.0" text="DB Status" />
       <Label fx:id="dbstatus" layoutX="149.0" layoutY="44.0" prefHeight="17.0" prefWidth="167.0" />
-      <TextField fx:id="username" layoutX="149.0" layoutY="85.0" />
+      <TextField fx:id="username" layoutX="149.0" layoutY="85.0" promptText="User Name" />
       <Label layoutX="50.0" layoutY="90.0" text="User Name" />
       <Label layoutX="50.0" layoutY="139.0" text="Password" />
-      <PasswordField fx:id="password" layoutX="149.0" layoutY="134.0" />
-      <ComboBox fx:id="combobox" layoutX="149.0" layoutY="183.0" prefHeight="27.0" prefWidth="167.0" />
+      <PasswordField fx:id="password" layoutX="149.0" layoutY="134.0" promptText="Password" />
+      <ComboBox fx:id="combobox" layoutX="149.0" layoutY="183.0" prefHeight="27.0" prefWidth="167.0" promptText="Admin / Student" />
+      <Button layoutX="149.0" layoutY="227.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="167.0" text="Login" />
    </children>
 </AnchorPane>
