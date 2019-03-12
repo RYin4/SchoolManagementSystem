@@ -10,6 +10,7 @@ public class LoginApp extends Application {
 
     public void start(Stage stage) throws Exception {
 
+        //no need to put path because login.fxml is located in src
         Parent root = (Parent) FXMLLoader.load(getClass().getResource("login.fxml"));
 
         Scene scene = new Scene(root);

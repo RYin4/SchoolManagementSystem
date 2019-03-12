@@ -10,7 +10,7 @@
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Label layoutX="36.0" layoutY="44.0" text="DB Status" />
-      <Label fx:id="dbstatus" layoutX="149.0" layoutY="44.0" prefHeight="17.0" prefWidth="167.0" />
+      <Label fx:id="dbstatus" layoutX="149.0" layoutY="44.0" prefHeight="17.0" prefWidth="250.0" />
       <TextField fx:id="username" layoutX="149.0" layoutY="85.0" promptText="User Name" />
       <Label layoutX="50.0" layoutY="90.0" text="User Name" />
       <Label layoutX="50.0" layoutY="139.0" text="Password" />
