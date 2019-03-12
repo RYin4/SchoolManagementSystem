@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" fx:controller="loginApp.LoginController" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" />
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="36.0" layoutY="44.0" text="DB Status" />
+      <Label fx:id="dbstatus" layoutX="149.0" layoutY="44.0" prefHeight="17.0" prefWidth="167.0" />
+      <TextField fx:id="username" layoutX="149.0" layoutY="85.0" />
+      <Label layoutX="50.0" layoutY="90.0" text="User Name" />
+      <Label layoutX="50.0" layoutY="139.0" text="Password" />
+      <PasswordField fx:id="password" layoutX="149.0" layoutY="134.0" />
+      <ComboBox fx:id="combobox" layoutX="149.0" layoutY="183.0" prefHeight="27.0" prefWidth="167.0" />
+   </children>
+</AnchorPane>
