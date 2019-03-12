@@ -16,6 +16,6 @@
       <Label layoutX="50.0" layoutY="139.0" text="Password" />
       <PasswordField fx:id="password" layoutX="149.0" layoutY="134.0" promptText="Password" />
       <ComboBox fx:id="combobox" layoutX="149.0" layoutY="183.0" prefHeight="27.0" prefWidth="167.0" promptText="Admin / Student" />
-      <Button layoutX="149.0" layoutY="227.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="167.0" text="Login" />
+      <Button fx:id="loginButton" layoutX="149.0" layoutY="227.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="167.0" text="Login" />
    </children>
 </AnchorPane>
